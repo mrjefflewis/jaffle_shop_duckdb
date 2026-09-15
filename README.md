@@ -2,6 +2,30 @@
 
 `jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
 
+## Codespace Quick Start
+
+> Your environment is pre-configured — dbt and DuckDB are already installed.
+
+| Step | Command |
+|---|---|
+| Build the project | `dbt build` |
+| Browse the database | Click **SQLTools** in the sidebar |
+| Test your changes | `dbt test` |
+| Generate docs | `dbt docs generate && dbt docs serve` |
+| Create a feature branch | `git checkout -b feature/my-change` |
+| Commit and push | `git add -A && git commit -m "describe your change" && git push -u origin feature/my-change` |
+| Open a pull request | GitHub will show a banner on your branch page |
+
+### Quick Links
+
+- [GitHub Repository](https://github.com/jefflewis/jaffle_shop_duckdb)
+- [Databricks](https://www.databricks.com)
+- [Google Cloud Docs](https://cloud.google.com/docs)
+- [dbt Documentation](https://docs.getdbt.com)
+- [DuckDB Documentation](https://duckdb.org/docs/)
+
+---
+
 <details>
 <summary>
 
